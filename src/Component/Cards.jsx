@@ -9,7 +9,7 @@ const HotelCard = ({ image, name, rating, description }) => {
         <h2>{name}</h2>
         <p className='rating'>{rating}</p>
         <p>{description}</p>
-        <button>Book now</button>
+        <button className='Booknow'>Book now</button>
       </div>
     </div>
   );

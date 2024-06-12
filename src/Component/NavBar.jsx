@@ -46,7 +46,7 @@ const NavBar = () => {
                 </div>
             </ul>
             <button className="mobile-menu-icon" onClick={handleToggle}>
-                {isMobile ? <MdOutlineRestaurantMenu /> : <IoIosMenu />}
+                {isMobile ? <MdOutlineRestaurantMenu className='menu-icon' /> : <IoIosMenu className='menu-icon'/>}
             </button>
         </nav>
     );

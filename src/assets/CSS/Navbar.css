@@ -34,7 +34,16 @@
 }
 
 .nav-links-mobile {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 78px; /* Position it below the navbar */
+    left: 0;
+    width: 100%; /* Make it full width */
+    background-color: #ffffff; /* Add background color */
+    z-index: 1000; /* Ensure it appears above other content */
 }
 
 .nav-item {
@@ -78,7 +87,10 @@
 .mobile-menu-icon {
     display: none;
 }
-
+.menu-icon{
+        color: white;
+        font-size: x-large;
+    }
 .icons {
     display: inline-block;
     margin-right: 5px;
@@ -87,8 +99,17 @@
 @media (max-width: 768px) {
     .mobile-menu-icon {
         display: block;
+        width: fit-content;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-right: 40px;
+        background-color: #FF7D29;
+        border: none;
+        border-radius: 4px;
     }
-
+    
     .nav-links {
         display: none;
     }

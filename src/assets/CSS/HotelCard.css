@@ -34,7 +34,7 @@
     text-align: justify;
 }
 
-button {
+.Booknow {
     margin-top: 40px;
     padding: 8px 16px;
     border: none;
@@ -46,6 +46,25 @@ button {
     width: fit-content;
 }
 
-button:hover {
+.Booknow:hover {
     background-color: #e27024;
+}
+@media (max-width: 768px) {
+    .hotel-card{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .image{
+        width: 350px;
+    }
+    .hotel-card{
+        margin-top: 10px;
+    }
+    .info{
+        max-width: 350px;
+    }
+    .info p{
+        max-width: 350px;
+    }
 }
