@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+.wrapper{
+    width: 100%;
+    height: auto;
+}
+.intro{
+    display: flex;
+    height: 500px;
+    align-items: center;
+    background-color: #fff2eb;
+}
+.taglines span{
+    font-family: "Playfair Display", serif;
+    font-size: 4vw;
+    margin-left: 100px;
+}
+.taglines .tag2{
+    font-family: "Playfair Display", serif;
+    color: #FF7D29;
+    margin-left: 100px;
+    font-size: 4vw;
+    margin-top: 10px;
+}
+.animation{
+    display: flex;
+    justify-content: center;
+}
+.animation img{
+    width: 45%;
+    height: 45%;
+}
+.landing-button{
+    margin-top: 10px;
+    margin-left: 100px;
+    padding: 16px 66px;
+    border: none;
+    border-radius: 4px;
+    background-color: #FF7D29;
+    color: white;
+    cursor: pointer;
+    align-self: flex-start;
+    width: fit-content;
+    font-family: "Playfair Display", serif;
+    font-size: large;
+}
+.landing-button:hover{
+    background-color: #e27024;
+}
+.landing-parent{
+    display: flex;
+}
+.top-list{
+    margin-top: 40px;
+    color: #FF7D29;
+    font-family: "Playfair Display", serif;
+    font-size: 3vw;
+}
+.top-list span{
+    margin-left: 100px;
+}
