@@ -3,7 +3,9 @@ import LandingLayout from "./LandingLayout";
 import Landing from "./Pages/Landing";
 import BookingLayout from "./BookingLayout";
 import Booking from "./Pages/Booking";
+import AuthLayout from "./AuthLayout";
 import PageNotFound from "./Error/PageNotFound";
+import LoginSignup from "./Pages/LoginSignup";
 
 function App() {
     return (
@@ -12,7 +14,12 @@ function App() {
 
                 {/* Landing Screen */}
                 <Route element={<LandingLayout />}>
-                    <Route path="/" element={<Landing />} />
+                    <Route path="/home" element={<Landing />} />
+                </Route>
+
+                {/* Auth Screen */}
+                <Route element={<AuthLayout />}>
+                    <Route path="/" element={<LoginSignup />} />
                 </Route>
 
                 {/* Booking Screen */}

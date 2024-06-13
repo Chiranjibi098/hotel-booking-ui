@@ -1,36 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-.wrapper{
+
+.wrapper {
     width: 100%;
     height: auto;
 }
-.intro{
+
+.intro {
     display: flex;
     height: 500px;
     align-items: center;
     background-color: #fff2eb;
 }
-.taglines span{
+
+.taglines span {
     font-family: "Playfair Display", serif;
     font-size: 60px;
     margin-left: 100px;
 }
-.taglines .tag2{
+
+.taglines .tag2 {
     font-family: "Playfair Display", serif;
     color: #FF7D29;
     margin-left: 100px;
     font-size: 60px;
     margin-top: 10px;
 }
-.animation{
+
+.animation {
     display: flex;
     justify-content: center;
 }
-.animation img{
+
+.animation img {
     width: 45%;
     height: 45%;
 }
-.landing-button{
+
+.landing-button {
     margin-top: 10px;
     margin-left: 100px;
     padding: 16px 66px;
@@ -44,49 +51,76 @@
     font-family: "Playfair Display", serif;
     font-size: large;
 }
-.landing-button:hover{
+
+.landing-button:hover {
     background-color: #e27024;
 }
-.landing-parent{
+
+.landing-parent {
     display: flex;
 }
-.top-list{
+
+.top-list {
     margin-top: 40px;
     color: #FF7D29;
     font-family: "Playfair Display", serif;
     font-size: 50px;
 }
-.top-list span{
+
+.bottom-list {
+    margin-top: 40px;
+    color: #FF7D29;
+    font-family: "Playfair Display", serif;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.top-list span {
     margin-left: 100px;
 }
+
+.bottom-list span {
+    margin-left: 100px;
+}
+
+.offers-wraper {
+    width: 100%;
+}
+
 @media (max-width: 768px) {
-    .taglines span{
+    .taglines span {
         font-size: 26px;
         margin-left: 10px;
     }
-    .taglines .tag2{
+
+    .taglines .tag2 {
         margin-left: 10px;
         font-size: 26px;
         margin-top: 10px;
     }
-    .intro{
+
+    .intro {
         height: 300px;
     }
-    .landing-button{
+
+    .landing-button {
         margin-left: 10px;
         padding: 6px 16px;
         font-size: medium;
     }
-    .animation img{
+
+    .animation img {
         width: 100%;
         height: 100%;
         margin-right: 20px;
     }
-    .top-list{
+
+    .top-list {
         margin-top: 20px;
         font-size: 30px;
     }
-    .top-list span{
+
+    .top-list span {
         margin-left: 10px;
     }
 }

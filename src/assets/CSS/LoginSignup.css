@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.wrapper-login{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+.parent{
+    max-width: 400px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.child-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-logo2{
+    font-size: xx-large;
+    font-family: "Playfair Display", serif;
+    color: #FF7D29;
+    border: 1px solid #FF7D29;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    width: fit-content;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+.child-one .auth-form input{
+    max-width: 400px;
+    height: 40px;
+    outline: none;
+    border: 3px solid #ffba8d;
+    border-radius: 5px;
+    padding-left: 20px;
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+}
+.auth-form .star{
+    color: #FF7D29;
+}
+.auth-form .mail-lable{
+    font-family: "Poppins", sans-serif;
+    font-size: medium;
+    color: rgb(116, 116, 116);
+    font-weight: 300;
+}
+.auth-form .pass-lable{
+    font-family: "Poppins", sans-serif;
+    font-size: medium;
+    color: rgb(116, 116, 116);
+    font-weight: 300;
+}
+.child-one .btn-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-size: small;
+    margin-top: 20px;
+}
+.btn-login .otherSign{
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(116, 116, 116);
+}
+.child-one .SigninBtn{
+    font-size: medium;
+    width: fit-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FF7D29;
+    color: white;
+    border: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 4px;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+}
+.child-one .SigninBtn:hover{
+    background-color: #f0711d;
+}
+.child-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.social-icons-log .social-google{
+    width: fit-content;
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.social-icons-log .social-facebook{
+    width: fit-content;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.social-icons-log{
+    display: flex;
+    justify-content: center;
+}
+.forgot-label{
+    font-family: "Poppins", sans-serif;
+    font-size: small;
+    margin-top: 10px;
+    text-align: center;
+}
+.child-two .forget-link{
+    color: #ffa162;
+    text-decoration: underline;
+}
+.child-two .create-link{
+    color: #3c3c3c;
+}
+.backBtn-sign{
+    margin-top: 10px;
+    text-align: center;
+    color: #ffa162;
+    cursor: pointer;
+}
+.error-message{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: small;
+    color: red;
+}
+.gap{
+    height: 15px;
+}
